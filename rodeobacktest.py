@@ -18,3 +18,10 @@ class Trade(object):
         self.price = price
         self.shares = shares
         self.day = day
+
+#OK
+class Stock(object):
+    def __init__(self, name, shares, trades):
+        self.name = name
+        self.shares = shares
+        self.trades = trades
